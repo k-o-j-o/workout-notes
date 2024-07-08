@@ -1,5 +1,5 @@
 import { sqliteTable, text, uniqueIndex } from "drizzle-orm/sqlite-core";
-import { entity } from "@/util";
+import { entity } from "@/lib";
 
 export const exercises = sqliteTable(
 	"exercise",
